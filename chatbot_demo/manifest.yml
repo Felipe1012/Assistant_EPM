@@ -1,0 +1,4 @@
+applications:
+    - name: chatbot_demo
+      memory: 256M
+      buildpack: sdk-for-nodejs
