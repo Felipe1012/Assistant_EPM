@@ -23,5 +23,13 @@
     "dev": "nodemon app.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe1012/Assistant_EPM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Felipe1012/Assistant_EPM/issues"
+  },
+  "homepage": "https://github.com/Felipe1012/Assistant_EPM#readme"
 }
