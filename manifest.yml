@@ -1,12 +1,4 @@
----
-- name: chatbot_demo
-  memory: 256M
-  disk_quota: 512M
-  path: /dev/chatbot_demo
-  buildpack: nodejs_buildpack
-  host: nodejs001
-  domain: mybluemix.net
-  command: node app.js
-  timeout: 80
-  env:
-    env_type: production
+applications:
+  - name: chatbot_demo
+    memory: 256M
+    buildpack: sdk-for-nodejs
