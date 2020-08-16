@@ -1,5 +1,5 @@
 {
-  "name": "chatbot_demo",
+  "name": "watson-sample-chatbot",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -23,13 +23,5 @@
     "dev": "nodemon app.js"
   },
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Felipe1012/Assistant_EPM.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Felipe1012/Assistant_EPM/issues"
-  },
-  "homepage": "https://github.com/Felipe1012/Assistant_EPM#readme"
+  "license": "ISC"
 }
