@@ -1,3 +1,1 @@
-# Watson sample chatbot
-
-Watson Assistant
+# Watson Assistant
