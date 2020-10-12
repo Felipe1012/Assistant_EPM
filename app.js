@@ -232,4 +232,10 @@ app.post('/conversation/', (req, res) => {
   }, delayInMilliseconds);
 });
 
-app.listen(port, () => console.log(`Running on port ${port}`));
+//app.listen(port, () => console.log(`Running on port ${port}`));
+var cfenv = require("cfenv");
+var appEnv = cfenv.getAppEnv();
+
+app.listen(appEnv.port, "0.0.0.0", () => {
+  console.log("Running at " + appEnv.url);
+});
