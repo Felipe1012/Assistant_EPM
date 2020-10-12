@@ -1,4 +1,6 @@
-applications:
-  - name: chatbot_demo
-    memory: 256M
-    buildpack: sdk-for-nodejs
+---
+    applications:
+    - instances: 1
+      buildpack: sdk-for-nodejs
+      command: npm start
+      memory: 256M
